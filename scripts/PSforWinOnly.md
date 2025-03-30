@@ -2,11 +2,11 @@ Script to include a **dropdown menu (ComboBox)**, so you can select the function
 
 ---
 
-### **Features of the Updated Script**
+### **Features of the Script**
 ✅ **Dropdown menu (ComboBox) to select functions**  
 ✅ **Single "Run" button to execute the selected function**  
 ✅ **GUI-based for easy selection**  
-✅ **Professional-looking, with clean layout**  
+✅ **Clean layout**  
 
 ---
 
@@ -161,4 +161,3 @@ $form.ShowDialog()
 ✔️ **Only one button needed (cleaner design)**  
 ✔️ **Works with Exchange Online, MSOL, and Unified Audit Logs**  
 ✔️ **Error handling included**  
-
