@@ -170,4 +170,3 @@ brew --version
 ✅ **Provides a Text-Based Menu**  
 ✅ **Works in Any Terminal**  
 
-Let me know if you need any tweaks! 🚀
