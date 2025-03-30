@@ -146,12 +146,16 @@ brew --version
    - Linux: `sudo apt install powershell -y` (Debian/Ubuntu)  
    - Fedora: `sudo dnf install powershell -y`  
 
-2. **Install Required Modules**  
+2. **Run Powershell**  
+   - macOS: `pwsh`  
+   - Linux: `powershell` (Debian/Ubuntu)  
+
+3. **Install Required Modules**  
    - `Install-Module ExchangeOnlineManagement -Scope CurrentUser`  
    - `Install-Module MSOnline -Scope CurrentUser`
    - `Connect-ExchangeOnline -UserPrincipalName "Full.email.address@domain.com"`
 
-3. **Run the Script**  
+4. **Run the Script**  
    - Save the script as `ExchangeMenu.ps1`  
    - Open Terminal & run:  
      ```bash
