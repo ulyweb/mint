@@ -149,7 +149,7 @@ brew --version
 2. **Install Required Modules**  
    - `Install-Module ExchangeOnlineManagement -Scope CurrentUser`  
    - `Install-Module MSOnline -Scope CurrentUser`
-   - `Connect-ExchangeOnline -UserPrincipalName "Full.email.address@domain.com"
+   - `Connect-ExchangeOnline -UserPrincipalName "Full.email.address@domain.com"`
 
 3. **Run the Script**  
    - Save the script as `ExchangeMenu.ps1`  
