@@ -123,6 +123,22 @@ Show-Menu
 ```
 
 ---
+## How to install Homebrew on macOS
+   - Step 1:
+````
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew --version
+````
+   - Next steps:
+````
+echo >> /Users/ENTER YOUR USERNAME HERE/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/ENTER YOUR USERNAME HERE/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+````
+   - Run brew --version:
+````
+brew --version
+````
 
 ## **How to Run on macOS/Linux**
 1. **Ensure PowerShell Core (pwsh) is installed**  
@@ -132,7 +148,8 @@ Show-Menu
 
 2. **Install Required Modules**  
    - `Install-Module ExchangeOnlineManagement -Scope CurrentUser`  
-   - `Install-Module MSOnline -Scope CurrentUser`  
+   - `Install-Module MSOnline -Scope CurrentUser`
+   - `Connect-ExchangeOnline -UserPrincipalName "Full.email.address@domain.com"
 
 3. **Run the Script**  
    - Save the script as `ExchangeMenu.ps1`  
