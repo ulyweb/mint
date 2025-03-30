@@ -153,8 +153,10 @@ brew --version
 3. **Install Required Modules** (Install a module only for the current user)
    - `Install-Module ExchangeOnlineManagement -Scope CurrentUser`  
    - `Install-Module MSOnline -Scope CurrentUser`
+     
 ✅ **Find and install a module**
    - `Find-Module -Name PowerShellGet | Install-Module`
+     
 ✅ **This example finds a module in the repository and installs the module**
    - `Install-Module -Name PSWindowsUpdate -Scope CurrentUser`
    - `Install-Module -Name Az.Accounts -Scope CurrentUser` 
