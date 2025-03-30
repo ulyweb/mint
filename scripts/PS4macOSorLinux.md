@@ -1,4 +1,4 @@
-This script is **Windows-only** because it uses **Windows Forms (WinForms)**, which is not supported on macOS or Linux. However, I can modify it to work cross-platform using a **terminal-based menu** instead of a GUI.
+This script is **Windows-only** because it uses **Windows Forms (WinForms)**, which is not supported on macOS or Linux. However, I modify it to work cross-platform using a **terminal-based menu** instead of a GUI.
 
 ---
 
