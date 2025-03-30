@@ -153,16 +153,15 @@ brew --version
 3. **Install Required Modules** (Install a module only for the current user)
    - `Install-Module ExchangeOnlineManagement -Scope CurrentUser`  
    - `Install-Module MSOnline -Scope CurrentUser`
-   **Find and install a module**
-     `Find-Module -Name PowerShellGet | Install-Module`
-     **This example finds a module in the repository and installs the module**
+✅ **Find and install a module**
+   - `Find-Module -Name PowerShellGet | Install-Module`
+✅ **This example finds a module in the repository and installs the module**
    - `Install-Module -Name PSWindowsUpdate -Scope CurrentUser`
    - `Install-Module -Name Az.Accounts -Scope CurrentUser` 
    - `Install-Module -Name DellBIOSProvider -Scope CurrentUser`
 
-`The Find-Module uses the Name parameter to specify the PowerShellGet module. By default, the newest version of the module is downloaded from the repository. The object is sent down the pipeline to the Install-Module cmdlet. 
-Install-Module installs the module for all users in $env:ProgramFiles\PowerShell\Modules.
-`
+✅ ***The Find-Module uses the Name parameter to specify the PowerShellGet module. By default, the newest version of the module is downloaded from the repository. The object is sent down the pipeline to the Install-Module cmdlet. 
+Install-Module installs the module for all users in $env:ProgramFiles\PowerShell\Modules.***
 
 4. **Connecting Online**  
    - `Connect-ExchangeOnline -UserPrincipalName "Full.email.address@domain.com"`
