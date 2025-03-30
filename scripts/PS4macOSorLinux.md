@@ -1,10 +1,10 @@
-This script is **Windows-only** because it uses **Windows Forms (WinForms)**, which is not supported on macOS or Linux. However, I modify it to work cross-platform using a **terminal-based menu** instead of a GUI.
+This script is supported on macOS or Linux. Modify it to work cross-platform using a **terminal-based menu**.
 
 ---
 
 ## **How to Run This on macOS or Linux?**
 1. **Use PowerShell Core (pwsh)** – Windows PowerShell (v5.1) is Windows-only, but PowerShell Core (v7+) works on macOS & Linux.  
-2. **Remove the GUI (WinForms)** – We’ll replace it with a **text-based menu**.  
+2. **We’ll replace it with a text-based menu**.  
 3. **Ensure Required Modules Are Installed**  
    - **ExchangeOnlineManagement** (`Install-Module ExchangeOnlineManagement`)  
    - **MSOnline** (`Install-Module MSOnline`)  
@@ -164,9 +164,8 @@ brew --version
 
 ---
 
-## **Why This Works on macOS & Linux**
+## **This Works on macOS & Linux**
 ✅ **Uses PowerShell Core (`pwsh`)**  
-✅ **Removes Windows Forms (GUI)**  
 ✅ **Provides a Text-Based Menu**  
 ✅ **Works in Any Terminal**  
 
