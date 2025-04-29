@@ -16,3 +16,10 @@ Ffmpeg
 Cheese
 OBS Studio
 ````
+
+
+Get-ExecutionPolicy -list
+
+set-executionpolicy remotesigned
+
+Install-module -name pswindowsupdate -scope currenctuser
